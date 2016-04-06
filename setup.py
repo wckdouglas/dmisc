@@ -8,4 +8,6 @@ setup(name='dmisc',
       author_email='wckdouglas@gmail.com',
       license='MIT',
       packages=['dmisc'],
+      install_requires=[
+          'numpy'],
       zip_safe=False)
